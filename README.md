@@ -147,3 +147,148 @@ fig.update_yaxes(title_text="Frequency", row=len(skus), col=1)
 
 pio.show(fig)
 ```
+
+We then explore Histograms to understand the distribution of our data.
+
+**Histogram:**
+<br>
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/17.%20Histrogram.png)
+
+Python code for generating the Histograms:
+```python 
+# Create a subplot for each SKU
+fig = sp.make_subplots(rows=len(skus), cols=1, subplot_titles=[f"Histogram for SKU {sku}" for sku in skus], vertical_spacing=0.05, shared_xaxes=True)
+
+# Iterate over each SKU
+for i, sku in enumerate(skus):
+    # Select the values for the SKU
+    values = df_pivot[sku].values
+
+    # Create histogram
+    fig.add_trace(go.Histogram(x=values, nbinsx=15, opacity=0.5), row=i+1, col=1)
+
+    fig.update_xaxes(title_text="Value", row=i+1, col=1)
+    fig.update_yaxes(title_text="Frequency", row=i+1, col=1)
+
+fig.update_layout(height=700, width=500, title_text="Histograms for SKUs", showlegend=False)
+
+pio.show(fig)
+```
+
+Next, we generate a Kernel Density Estimation (KDE) to smooth out our histogram.
+
+**Kernel Density Estimation:**
+<br>
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/18.%20KDE.png)
+
+Python code for generating the KDE:
+```python 
+# (Replace to Matplotlib version)
+# Remove the 'date' column from df_pivot columns
+skus = df_pivot.columns[1:]
+
+# Create a subplot for each SKU
+fig, axs = plt.subplots(len(skus), 1, figsize=(6, 8), sharex=True)
+
+# Iterate over each SKU
+for i, sku in enumerate(skus):
+    # Select the values for the SKU
+    values = df_pivot[sku].values
+
+    # Create histogram with KDE plot
+    sns.histplot(values, bins=15, kde=True, ax=axs[i])
+
+    axs[i].set_title(f"Histogram with KDE for SKU {sku}")
+    axs[i].set_xlabel("Value")
+    axs[i].set_ylabel("Frequency")
+
+plt.tight_layout()
+plt.show()
+```
+
+And here's another example of using KDE:
+
+**Kernel Density Estimation-2:**
+<br>
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/19.%20KDE-2.png)
+
+Python code for generating the KDE:
+```python 
+# Transpose the df_pivot DataFrame
+df_pivot_transposed = df_pivot.transpose()
+
+# Convert Timestamp objects to numerical values
+df_pivot_transposed = df_pivot_transposed.apply(pd.to_numeric, errors='coerce')
+
+# Handle missing values
+df_pivot_transposed = df_pivot_transposed.dropna()
+
+# Extract the column names from df_pivot_transposed for the x-axis
+x_axis = df_pivot_transposed.columns
+
+# Extract the SKU values from df_pivot_transposed for the legend labels
+legend = df_pivot_transposed.index
+
+# Create histogram with line histogram using plotly
+hist_data = df_pivot_transposed.values.tolist()
+
+# Create distplot with curve_type set to 'normal' and reduced bin_size
+fig = ff.create_distplot(hist_data, legend, colors=['#A56CC1', '#63F5EF', '#FFA15A'],
+                         bin_size=4, show_rug=False)
+
+# Set the chart title and axis labels
+fig.update_layout(title='Histogram with Line Histogram', xaxis_title='Value', yaxis_title='Frequency')
+
+# Display the plot
+fig.show()
+```
+
+Following that, we plot Box Plots to summarize the distribution of our data.
+
+**Box Plot:**
+<br>
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/20.%20Boxplot.png)
+
+Python code for generating the Box Plots:
+```python 
+# Choose the x-axis column from the "df" dataset
+x_axis = 'sku'
+
+# Choose the y-axis column from the "df" dataset
+y_axis = 'value'
+
+# Create the box plot using seaborn
+sns.boxplot(data=df, x=x_axis, y=y_axis)
+
+# Set the chart title and axis labels
+plt.title('Box Plot: {} vs {}'.format(y_axis, x_axis))
+plt.xlabel(x_axis)
+plt.ylabel(y_axis)
+
+# Display the plot
+plt.show()
+```
+
+
+Lastly, we generate Line Charts to examine trends over time.
+
+**Line Chart:**
+<br>
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/21.%20Line%20Chart.png)
+
+Python code for generating the Box Plots:
+```python 
+fig = go.Figure()
+
+for sku in df['sku'].unique():
+    filtered_df = df[df['sku'] == sku]
+    fig.add_trace(go.Scatter(x=filtered_df['date'], y=filtered_df['value'], name=sku))
+
+fig.update_layout(title="Line Chart: Value by SKU",
+                  xaxis=dict(title="Date"),
+                  yaxis=dict(title="Value"))
+
+pio.show(fig)
+```
+
+Don't hesitate to drop a star ⭐ if you find this repository useful. Happy learning! 🚀
