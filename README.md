@@ -83,7 +83,7 @@ pio.show(fig)
 
 Moving forward, we delve into Pie Charts.
 
-** Pie Chart:**
+**Pie Chart:**
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/14.Piechart.png)
 
@@ -103,7 +103,7 @@ plt.show()
 
 Next, we create Bar Charts to compare data across different categories.
 
-** Bar Chart:**
+**Bar Chart:**
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/15.Barchart.png)
 
@@ -126,7 +126,7 @@ plt.show()
 
 And here's another variant of the bar chart:
 
-** Bar Chart-2:**
+**Bar Chart-2:**
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/16.Barchart2.png)
 
@@ -151,6 +151,7 @@ pio.show(fig)
 We then explore Histograms to understand the distribution of our data.
 
 **Histogram:**
+<br>
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/17.%20Histrogram.png)
 
@@ -178,6 +179,7 @@ pio.show(fig)
 Next, we generate a Kernel Density Estimation (KDE) to smooth out our histogram.
 
 **Kernel Density Estimation:**
+<br>
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/18.%20KDE.png)
 
@@ -212,7 +214,7 @@ And here's another example of using KDE:
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/19.%20KDE-2.png)
 
-Python code for generating the KDE:
+Python code for generating the KDE-2:
 ```python 
 # Transpose the df_pivot DataFrame
 df_pivot_transposed = df_pivot.transpose()
@@ -247,6 +249,7 @@ Following that, we plot Box Plots to summarize the distribution of our data.
 
 **Box Plot:**
 <br>
+<br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/20.%20Boxplot.png)
 
 Python code for generating the Box Plots:
@@ -274,9 +277,10 @@ Lastly, we generate Line Charts to examine trends over time.
 
 **Line Chart:**
 <br>
+<br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/21.%20Line%20Chart.png)
 
-Python code for generating the Box Plots:
+Python code for generating the Line Charts:
 ```python 
 fig = go.Figure()
 
