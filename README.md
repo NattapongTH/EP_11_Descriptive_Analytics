@@ -294,6 +294,7 @@ fig.update_layout(title="Line Chart: Value by SKU",
 
 pio.show(fig)
 ```
+*** 
 
 "Thank you for your interest in this project! Please feel free to contribute or share your thoughts. Don't forget to leave a star ⭐ if this repository was useful for you. Looking forward to connecting with you! 🚀
 
