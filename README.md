@@ -5,14 +5,11 @@
 
 Welcome to my GitHub repository. This section provides a code walkthrough and explanations for the descriptive analytics concepts we've explored in the context of time-series analysis.
 
-**Data source:** 
+> **Data source:** 
 https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/EP11.xlsx
 
-<br>
-<br>
-<br>
 
-**Sample Dataset:**
+> **Sample Dataset:**
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/11.%20Dataset.png)
 
 Before we begin, let's set up our environment:
