@@ -296,3 +296,13 @@ pio.show(fig)
 ```
 
 Don't hesitate to drop a star ⭐ if you find this repository useful. Happy learning! 🚀
+
+<a href="https://web.facebook.com/DonatoStory">
+    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-7/64/social_media_rounded-7-03-256.png"/>
+</a>
+<a href="https://medium.com/donato-story">
+    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-corners/512/Medium_rounded_cr-512.png"/>
+</a>
+<a href="https://linkedin.com/in/nattapong-thanngam">
+    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-512.png"/>
+</a>
