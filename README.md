@@ -27,3 +27,33 @@ from plotly.subplots import make_subplots
 import plotly.subplots as sp
 import plotly.io as pio
 ```
+
+Our journey starts with the Frequency Distribution Tables.
+
+Sample Frequency Distribution Table:
+<br>
+![alt](hhttps://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/12.FreqSummaryTable.png)
+
+Python code for generating the Frequency Distribution Tables:
+```python 
+# Define the SKUs to iterate over
+skus = ['A', 'B', 'C']
+
+# Frequency analysis as DataFrames
+frequency_dfs = []
+for sku in skus:
+    sku_df = pd.DataFrame(df[df['sku'] == sku]['value'].value_counts())
+    sku_df.columns = [f"Frequency for SKU {sku}"]
+    sku_df.sort_index(inplace=True)
+    frequency_dfs.append(sku_df)
+
+# Concatenate DataFrames
+frequency_df = pd.concat(frequency_dfs, axis=1)
+frequency_df.sort_index(inplace=True)
+
+# Fill NaN values with 0
+frequency_df.fillna(0, inplace=True)
+
+# Print the frequency DataFrame
+frequency_df
+```
