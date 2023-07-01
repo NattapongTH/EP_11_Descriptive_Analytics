@@ -32,7 +32,7 @@ Our journey starts with the Frequency Distribution Tables.
 
 Sample Frequency Distribution Table:
 <br>
-![alt](hhttps://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/12.FreqSummaryTable.png)
+![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/12.FreqSummaryTable.png)
 
 Python code for generating the Frequency Distribution Tables:
 ```python 
