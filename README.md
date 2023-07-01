@@ -8,7 +8,7 @@ Welcome to my GitHub repository. This section provides a code walkthrough and ex
 **Data source:** 
 https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/EP11.xlsx
 
-**Sample Dataset:**
+Sample Dataset:
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/11.%20Dataset.png)
 
@@ -30,7 +30,7 @@ import plotly.io as pio
 
 Our journey starts with the Frequency Distribution Tables.
 
-Sample Frequency Distribution Table:
+*** Frequency Distribution Table: ***
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/12.FreqSummaryTable.png)
 
