@@ -297,33 +297,8 @@ pio.show(fig)
 
 Don't hesitate to drop a star ⭐ if you find this repository useful. Happy learning! 🚀
 
-<a href="https://web.facebook.com/DonatoStory">
-    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_1-facebook-256.png"/>
-</a>
-<a href="https://medium.com/donato-story">
-    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-corners/512/Medium_rounded_cr-512.png"/>
-</a>
-<a href="https://linkedin.com/in/nattapong-thanngam">
-    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-512.png"/>
-</a>
-
-<a href="https://web.facebook.com/DonatoStory">
-    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-media-applications-2/64/social_media_applications_2-03-512.png"/>
-</a>
-<a href="https://medium.com/donato-story">
-    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-corners/512/Medium_rounded_cr-512.png"/>
-</a>
-<a href="https://linkedin.com/in/nattapong-thanngam">
-    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-512.png"/>
-</a>
-
-<a href="https://web.facebook.com/DonatoStory">
-    <img height="50" src="https://cdn.pixabay.com/photo/2021/06/23/14/24/facebook-6351880_1280.png"/>
-</a>
-<a href="https://medium.com/donato-story">
-    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-corners/512/Medium_rounded_cr-512.png"/>
-</a>
-<a href="https://linkedin.com/in/nattapong-thanngam">
-    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-512.png"/>
-</a>
-
+<p align="center">
+<a href="https://web.facebook.com/DonatoStory"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white"/></a>
+<a href="https://medium.com/donato-story"><img src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a>
+<a href="https://linkedin.com/in/nattapong-thanngam"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a>
+</p>
