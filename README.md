@@ -1,4 +1,4 @@
-# <p align="center"> The Journey into Time Series: Beginning with Descriptive Analytics  </p>
+# <p align="center"> The Journey into Time Series:<br> Beginning with Descriptive Analytics  </p>
 ### <p align="center"> Data Mastery Series - Episode 11: The Art of Forecasting (Part 2) </p>
 
 ---
