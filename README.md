@@ -13,7 +13,7 @@ https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/EP11.xlsx
 
 Before we begin, let's set up our environment:
 
-'''python 
+```python 
 import numpy as np
 import pandas as pd
 
@@ -25,4 +25,4 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.subplots as sp
 import plotly.io as pio
-'''
+```
