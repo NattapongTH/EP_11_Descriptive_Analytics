@@ -30,7 +30,7 @@ import plotly.io as pio
 
 Our journey starts with the Frequency Distribution Tables.
 
-#####Frequency Distribution Table:
+#####Frequency Distribution Table:</p>
 <br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/12.FreqSummaryTable.png)
 
