@@ -8,9 +8,8 @@ Welcome to my GitHub repository. This section provides a code walkthrough and ex
 **Data source:** 
 https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/EP11.xlsx
 
-&nbsp;
-
 **Sample Dataset:**
+&nbsp;
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/11.%20Dataset.png)
 
 Before we begin, let's set up our environment:
