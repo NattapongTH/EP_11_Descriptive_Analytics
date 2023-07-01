@@ -295,10 +295,13 @@ fig.update_layout(title="Line Chart: Value by SKU",
 pio.show(fig)
 ```
 
-Don't hesitate to drop a star ⭐ if you find this repository useful. Happy learning! 🚀
+"Thank you for your interest in this project! Please feel free to contribute or share your thoughts. Don't forget to leave a star ⭐ if this repository was useful for you. Looking forward to connecting with you! 🚀
 
 <p align="center">
 <a href="https://web.facebook.com/DonatoStory"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white"/></a>
 <a href="https://medium.com/donato-story"><img src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a>
 <a href="https://linkedin.com/in/nattapong-thanngam"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a>
 </p>
+
+Follow me and let's learn together! 🌟"
+
