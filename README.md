@@ -9,7 +9,7 @@ Welcome to my GitHub repository. This section provides a code walkthrough and ex
 https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/EP11.xlsx
 
 **Sample Dataset:**
-&nbsp;
+<br>
 ![alt](https://github.com/NattapongTH/EP_11_Descriptive_Analytics/blob/main/Photo/11.%20Dataset.png)
 
 Before we begin, let's set up our environment:
