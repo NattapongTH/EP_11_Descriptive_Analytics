@@ -298,7 +298,7 @@ pio.show(fig)
 Don't hesitate to drop a star ⭐ if you find this repository useful. Happy learning! 🚀
 
 <a href="https://web.facebook.com/DonatoStory">
-    <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-7/64/social_media_rounded-7-03-256.png"/>
+    <img height="50" src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_1-facebook-256.png"/>
 </a>
 <a href="https://medium.com/donato-story">
     <img height="50" src="https://cdn4.iconfinder.com/data/icons/social-media-rounded-corners/512/Medium_rounded_cr-512.png"/>
